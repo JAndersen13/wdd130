@@ -1,8 +1,8 @@
 :root{
     --primary-color: #00758f;    /* Cerulean */
-    --secondary-color:  #47ddff; /* Vivid Sky Blue */
-    --accent1-color: #4d4d4d;    /* Davy's Grey */
-    --acent2-color: #76bc84;     /* Emerald */
+    --secondary-color:  #3D3D3D; /* Vivid Sky Blue */
+    --accent1-color: #92C99D;    /* Davy's Grey */
+    --accent2-color: #D6D6D6;     /* Emerald */
     --heading-font: "Vina Sans", sans-serif;
     --body-font: "Tinos", serif;
 }
@@ -15,8 +15,8 @@
 
 
 header{
-  background-color: var(--acent2-color);
-  border: 3px solid var(--accent1-color);
+  background-color: var(--accent1-color);
+  border: 3px solid var(--secondary-color);
   padding: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr ;
@@ -24,7 +24,7 @@ header{
 }
 
 .logo_img{
-  border: 2px solid var(--accent1-color);
+  border: 2px solid var(--secondary-color);
 }
 
 .navigation{
@@ -37,14 +37,14 @@ header{
 
 .navigation a{
   font-family: var(--body-font);
-  color: var(--accent1-color);
+  color: var(--secondary-color);
   text-decoration: none;
   font-weight: bold;
   }
 
 body{
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--secondary-color);
 }
 
 header, main, footer {
@@ -53,7 +53,7 @@ header, main, footer {
 }
 
 .history{
-  border: 2px solid var(--accent1-color);
+  border: 2px solid var(--secondary-color);
 
 }
 
@@ -108,8 +108,8 @@ h1 {
   padding: 10px;
   text-align: center;
   opacity: 1.0;
-  background-color: var(--accent1-color);
-  color: #ddd; 
+  background-color: var(--secondary-color);
+  color: var(--accent2-color); 
 }
 
 article {
@@ -119,9 +119,9 @@ article {
   width: 70%;
   padding: 10px;
   text-align: center;
-  opacity: 0.6;
-  background-color: var(--primary-color);
-  color: #ddd; 
+  opacity: 0.8;
+  background-color: var(--secondary-color);
+  color: var(--accent2-color); 
 }
 
 .hero article img {
@@ -130,13 +130,13 @@ article {
 }
 
 .adv{
-  border: 2px solid var(--accent1-color);
+  border: 2px solid var(--secondary-color);
 }
 
 .adventure figure{
-  border: 2px solid var(--accent1-color);
-  background-color: var(--accent1-color);
-  color:#ddd;
+  border: 2px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  color:var(--accent2-color);
   display: flex;
   flex-flow: column;
 }
@@ -161,7 +161,7 @@ footer{
   justify-content:right;
   align-items: center;
   gap: 90px;
-  background-color: var(--acent2-color);
-  border: 3px solid var(--accent1-color);
+  background-color: var(--accent1-color);
+  border: 2px solid var(--secondary-color);
  
 }
