@@ -252,7 +252,7 @@ input[type="checkbox"] {
 button {
   margin: 1rem;
   background-color: var(--primary-color);
-  color: var(--accent2-color);
+  color: #ffffff;
   border: none;
   border-radius: .5rem;
   padding: .75rem;
