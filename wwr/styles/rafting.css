@@ -52,7 +52,7 @@ header, main, footer {
   margin: 0 auto;
 }
 
-.Section{
+.section{
   border: 2px solid var(--secondary-color);
 
 }
@@ -199,7 +199,7 @@ form{
   padding: 1rem;
   border: 1px solid var(--secondary-color);
   border-radius: 0.5rem;
-  background-color: var(--accent2-color);
+  background-color: #ffffff;
   font-family: var(--body-font);
   display: grid;
 }
